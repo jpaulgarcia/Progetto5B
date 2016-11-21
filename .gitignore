@@ -1,0 +1,12 @@
+*.exe
+*.pdb
+*.exe.manifest
+*.suo
+*.sdf
+*.user
+*.obj
+*.dll
+*.resources
+*.cache
+*.exe.config
+*.FileListAbsolute.txt
