@@ -31,11 +31,12 @@
             this.btnNerucci = new System.Windows.Forms.Button();
             this.btnGarcia = new System.Windows.Forms.Button();
             this.btnSomigli = new System.Windows.Forms.Button();
+            this.lblPresentazione = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnNerucci
             // 
-            this.btnNerucci.Location = new System.Drawing.Point(12, 12);
+            this.btnNerucci.Location = new System.Drawing.Point(12, 63);
             this.btnNerucci.Name = "btnNerucci";
             this.btnNerucci.Size = new System.Drawing.Size(118, 23);
             this.btnNerucci.TabIndex = 0;
@@ -45,7 +46,7 @@
             // 
             // btnGarcia
             // 
-            this.btnGarcia.Location = new System.Drawing.Point(12, 55);
+            this.btnGarcia.Location = new System.Drawing.Point(12, 106);
             this.btnGarcia.Name = "btnGarcia";
             this.btnGarcia.Size = new System.Drawing.Size(118, 23);
             this.btnGarcia.TabIndex = 1;
@@ -55,7 +56,7 @@
             // 
             // btnSomigli
             // 
-            this.btnSomigli.Location = new System.Drawing.Point(12, 96);
+            this.btnSomigli.Location = new System.Drawing.Point(12, 147);
             this.btnSomigli.Name = "btnSomigli";
             this.btnSomigli.Size = new System.Drawing.Size(118, 23);
             this.btnSomigli.TabIndex = 2;
@@ -63,11 +64,22 @@
             this.btnSomigli.UseVisualStyleBackColor = true;
             this.btnSomigli.Click += new System.EventHandler(this.btnSomigli_Click);
             // 
+            // lblPresentazione
+            // 
+            this.lblPresentazione.AutoSize = true;
+            this.lblPresentazione.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPresentazione.Location = new System.Drawing.Point(72, 9);
+            this.lblPresentazione.Name = "lblPresentazione";
+            this.lblPresentazione.Size = new System.Drawing.Size(319, 33);
+            this.lblPresentazione.TabIndex = 3;
+            this.lblPresentazione.Text = "Presentazione Classe";
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.lblPresentazione);
             this.Controls.Add(this.btnSomigli);
             this.Controls.Add(this.btnGarcia);
             this.Controls.Add(this.btnNerucci);
@@ -76,6 +88,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Presentazione ";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -84,6 +97,7 @@
         private System.Windows.Forms.Button btnNerucci;
         private System.Windows.Forms.Button btnGarcia;
         private System.Windows.Forms.Button btnSomigli;
+        private System.Windows.Forms.Label lblPresentazione;
     }
 }
 
