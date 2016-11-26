@@ -28,13 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnNerucci = new System.Windows.Forms.Button();
+            this.btnGarcia = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnNerucci
+            // 
+            this.btnNerucci.Location = new System.Drawing.Point(12, 12);
+            this.btnNerucci.Name = "btnNerucci";
+            this.btnNerucci.Size = new System.Drawing.Size(118, 23);
+            this.btnNerucci.TabIndex = 0;
+            this.btnNerucci.Text = "Visualizza Nerucci";
+            this.btnNerucci.UseVisualStyleBackColor = true;
+            this.btnNerucci.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnNerucci_MouseClick);
+            // 
+            // btnGarcia
+            // 
+            this.btnGarcia.Location = new System.Drawing.Point(12, 55);
+            this.btnGarcia.Name = "btnGarcia";
+            this.btnGarcia.Size = new System.Drawing.Size(118, 23);
+            this.btnGarcia.TabIndex = 1;
+            this.btnGarcia.Text = "Visualizza Garcia";
+            this.btnGarcia.UseVisualStyleBackColor = true;
+            this.btnGarcia.Click += new System.EventHandler(this.btnGarcia_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(580, 394);
+            this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnGarcia);
+            this.Controls.Add(this.btnNerucci);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -44,6 +68,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnNerucci;
+        private System.Windows.Forms.Button btnGarcia;
     }
 }
 

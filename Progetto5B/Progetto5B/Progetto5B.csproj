@@ -58,6 +58,12 @@
     <Compile Include="FormGarcia.Designer.cs">
       <DependentUpon>FormGarcia.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNerucci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNerucci.Designer.cs">
+      <DependentUpon>FormNerucci.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormGarcia.resx">
       <DependentUpon>FormGarcia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNerucci.resx">
+      <DependentUpon>FormNerucci.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\jpaul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koala.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

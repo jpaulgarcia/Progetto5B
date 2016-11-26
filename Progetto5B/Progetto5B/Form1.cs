@@ -16,5 +16,17 @@ namespace Progetto5B
         {
             InitializeComponent();
         }
+
+        private void btnNerucci_MouseClick(object sender, MouseEventArgs e)
+        {
+            FormNerucci frNerucci = new FormNerucci();
+            frNerucci.Show();
+        }
+
+        private void btnGarcia_Click(object sender, EventArgs e)
+        {
+            FormGarcia frGarcia = new FormGarcia();
+            frGarcia.Show();
+        }
     }
 }
