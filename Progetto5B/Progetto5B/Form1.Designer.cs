@@ -33,6 +33,7 @@
             this.btnSomigli = new System.Windows.Forms.Button();
             this.btnCini = new System.Windows.Forms.Button();
             this.lblPresentazione = new System.Windows.Forms.Label();
+            this.btnVannozzi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -67,7 +68,7 @@
             // 
             // btnCini
             // 
-            this.btnCini.Location = new System.Drawing.Point(12, 176);
+            this.btnCini.Location = new System.Drawing.Point(12, 188);
             this.btnCini.Name = "btnCini";
             this.btnCini.Size = new System.Drawing.Size(118, 23);
             this.btnCini.TabIndex = 3;
@@ -85,11 +86,22 @@
             this.lblPresentazione.TabIndex = 3;
             this.lblPresentazione.Text = "Presentazione Classe";
             // 
+            // btnVannozzi
+            // 
+            this.btnVannozzi.Location = new System.Drawing.Point(13, 231);
+            this.btnVannozzi.Name = "btnVannozzi";
+            this.btnVannozzi.Size = new System.Drawing.Size(117, 23);
+            this.btnVannozzi.TabIndex = 4;
+            this.btnVannozzi.Text = "Visualizza Vannozzi";
+            this.btnVannozzi.UseVisualStyleBackColor = true;
+            this.btnVannozzi.Click += new System.EventHandler(this.btnVannozzi_Click);
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnVannozzi);
             this.Controls.Add(this.btnCini);
             this.Controls.Add(this.lblPresentazione);
             this.Controls.Add(this.btnSomigli);
@@ -111,6 +123,7 @@
         private System.Windows.Forms.Button btnSomigli;
         private System.Windows.Forms.Button btnCini;
         private System.Windows.Forms.Label lblPresentazione;
+        private System.Windows.Forms.Button btnVannozzi;
     }
 }
 

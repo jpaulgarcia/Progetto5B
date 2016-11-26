@@ -40,5 +40,11 @@ namespace Progetto5B
             FormCini FrCini = new FormCini();
             FrCini.Show();
         }
+
+        private void btnVannozzi_Click(object sender, EventArgs e)
+        {
+            FormVannozzi frVannozzi = new FormVannozzi();
+            frVannozzi.Show();
+        }
     }
 }
