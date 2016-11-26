@@ -34,5 +34,11 @@ namespace Progetto5B
             FormSomigli FromSomigli = new FormSomigli();
             FromSomigli.Show();
         }
+
+        private void btnCini_Click(object sender, EventArgs e)
+        {
+            FormCini FrCini = new FormCini();
+            FrCini.Show();
+        }
     }
 }

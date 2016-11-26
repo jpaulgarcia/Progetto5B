@@ -31,6 +31,7 @@
             this.btnNerucci = new System.Windows.Forms.Button();
             this.btnGarcia = new System.Windows.Forms.Button();
             this.btnSomigli = new System.Windows.Forms.Button();
+            this.btnCini = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -63,11 +64,22 @@
             this.btnSomigli.UseVisualStyleBackColor = true;
             this.btnSomigli.Click += new System.EventHandler(this.btnSomigli_Click);
             // 
+            // btnCini
+            // 
+            this.btnCini.Location = new System.Drawing.Point(12, 142);
+            this.btnCini.Name = "btnCini";
+            this.btnCini.Size = new System.Drawing.Size(118, 23);
+            this.btnCini.TabIndex = 3;
+            this.btnCini.Text = "Visualizza Cini";
+            this.btnCini.UseVisualStyleBackColor = true;
+            this.btnCini.Click += new System.EventHandler(this.btnCini_Click);
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnCini);
             this.Controls.Add(this.btnSomigli);
             this.Controls.Add(this.btnGarcia);
             this.Controls.Add(this.btnNerucci);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.Button btnNerucci;
         private System.Windows.Forms.Button btnGarcia;
         private System.Windows.Forms.Button btnSomigli;
+        private System.Windows.Forms.Button btnCini;
     }
 }
 
