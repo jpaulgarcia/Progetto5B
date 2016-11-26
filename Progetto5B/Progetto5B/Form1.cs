@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Progetto5B
 {
-    public partial class Form1 : Form
+    public partial class FormPrincip : Form
     {
-        public Form1()
+        public FormPrincip()
         {
             InitializeComponent();
         }
@@ -27,6 +27,12 @@ namespace Progetto5B
         {
             FormGarcia frGarcia = new FormGarcia();
             frGarcia.Show();
+        }
+
+        private void btnSomigli_Click(object sender, EventArgs e)
+        {
+            FormSomigli FromSomigli = new FormSomigli();
+            FromSomigli.Show();
         }
     }
 }

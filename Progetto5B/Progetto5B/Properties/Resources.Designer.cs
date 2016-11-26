@@ -73,9 +73,19 @@ namespace Progetto5B.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap koala {
+        internal static System.Drawing.Bitmap Nerucci {
             get {
-                object obj = ResourceManager.GetObject("koala", resourceCulture);
+                object obj = ResourceManager.GetObject("Nerucci", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Somigli {
+            get {
+                object obj = ResourceManager.GetObject("Somigli", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

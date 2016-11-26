@@ -36,8 +36,8 @@
             this.txtCognome = new System.Windows.Forms.TextBox();
             this.txtDataNascita = new System.Windows.Forms.TextBox();
             this.txtLuogoNascita = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnChiudi = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,17 +109,6 @@
             this.txtLuogoNascita.TabIndex = 8;
             this.txtLuogoNascita.Text = "Firenze";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::Progetto5B.Properties.Resources.koala;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(160, 190);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnChiudi
             // 
             this.btnChiudi.Location = new System.Drawing.Point(310, 296);
@@ -129,6 +118,18 @@
             this.btnChiudi.Text = "Chiudi";
             this.btnChiudi.UseVisualStyleBackColor = true;
             this.btnChiudi.Click += new System.EventHandler(this.btnChiudi_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::Progetto5B.Properties.Resources.Nerucci;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(160, 190);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // FormNerucci
             // 

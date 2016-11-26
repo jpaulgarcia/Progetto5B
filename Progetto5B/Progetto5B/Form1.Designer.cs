@@ -1,6 +1,6 @@
 ﻿namespace Progetto5B
 {
-    partial class Form1
+    partial class FormPrincip
     {
         /// <summary>
         /// Variabile di progettazione necessaria.
@@ -30,6 +30,7 @@
         {
             this.btnNerucci = new System.Windows.Forms.Button();
             this.btnGarcia = new System.Windows.Forms.Button();
+            this.btnSomigli = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -52,17 +53,28 @@
             this.btnGarcia.UseVisualStyleBackColor = true;
             this.btnGarcia.Click += new System.EventHandler(this.btnGarcia_Click);
             // 
-            // Form1
+            // btnSomigli
+            // 
+            this.btnSomigli.Location = new System.Drawing.Point(12, 96);
+            this.btnSomigli.Name = "btnSomigli";
+            this.btnSomigli.Size = new System.Drawing.Size(118, 23);
+            this.btnSomigli.TabIndex = 2;
+            this.btnSomigli.Text = "Visualizza Somigli";
+            this.btnSomigli.UseVisualStyleBackColor = true;
+            this.btnSomigli.Click += new System.EventHandler(this.btnSomigli_Click);
+            // 
+            // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnSomigli);
             this.Controls.Add(this.btnGarcia);
             this.Controls.Add(this.btnNerucci);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
+            this.Name = "FormPrincip";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Presentazione ";
             this.ResumeLayout(false);
 
         }
@@ -71,6 +83,7 @@
 
         private System.Windows.Forms.Button btnNerucci;
         private System.Windows.Forms.Button btnGarcia;
+        private System.Windows.Forms.Button btnSomigli;
     }
 }
 
