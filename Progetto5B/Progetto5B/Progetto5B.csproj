@@ -101,6 +101,12 @@
     <Compile Include="FormNurul.Designer.cs">
       <DependentUpon>FormNurul.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPaolacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaolacci.Designer.cs">
+      <DependentUpon>FormPaolacci.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRusso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNurul.resx">
       <DependentUpon>FormNurul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaolacci.resx">
+      <DependentUpon>FormPaolacci.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRusso.resx">
       <DependentUpon>FormRusso.cs</DependentUpon>

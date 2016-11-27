@@ -82,5 +82,11 @@ namespace Progetto5B
             FormFlorindo frFlo = new FormFlorindo();
             frFlo.Show();
         }
+
+        private void btnPaolacci_Click(object sender, EventArgs e)
+        {
+            FormPaolacci frPopa = new FormPaolacci();
+            frPopa.Show();
+        }
     }
 }
