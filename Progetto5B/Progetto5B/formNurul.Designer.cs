@@ -37,6 +37,7 @@
             this.txtData = new System.Windows.Forms.TextBox();
             this.lblLuogo = new System.Windows.Forms.Label();
             this.txtLuogo = new System.Windows.Forms.TextBox();
+            this.btnChiudi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,11 +126,22 @@
             this.txtLuogo.TabIndex = 12;
             this.txtLuogo.Text = "Bangladesh";
             // 
+            // btnChiudi
+            // 
+            this.btnChiudi.Location = new System.Drawing.Point(184, 211);
+            this.btnChiudi.Name = "btnChiudi";
+            this.btnChiudi.Size = new System.Drawing.Size(75, 23);
+            this.btnChiudi.TabIndex = 13;
+            this.btnChiudi.Text = "Chiudi";
+            this.btnChiudi.UseVisualStyleBackColor = true;
+            this.btnChiudi.Click += new System.EventHandler(this.btnChiudi_Click);
+            // 
             // formNurul
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(424, 258);
+            this.Controls.Add(this.btnChiudi);
             this.Controls.Add(this.txtLuogo);
             this.Controls.Add(this.lblLuogo);
             this.Controls.Add(this.txtData);
@@ -158,5 +170,6 @@
         private System.Windows.Forms.TextBox txtData;
         private System.Windows.Forms.Label lblLuogo;
         private System.Windows.Forms.TextBox txtLuogo;
+        private System.Windows.Forms.Button btnChiudi;
     }
 }
