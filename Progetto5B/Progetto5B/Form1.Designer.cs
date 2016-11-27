@@ -100,16 +100,17 @@
             // 
             // btnRusso
             // 
-            this.btnRusso.Location = new System.Drawing.Point(13, 274);
+            this.btnRusso.Location = new System.Drawing.Point(12, 277);
             this.btnRusso.Name = "btnRusso";
             this.btnRusso.Size = new System.Drawing.Size(117, 23);
             this.btnRusso.TabIndex = 5;
             this.btnRusso.Text = "Visualizza Russo";
             this.btnRusso.UseVisualStyleBackColor = true;
             this.btnRusso.Click += new System.EventHandler(this.btnRusso_Click);
+            // 
             // btnDangelo
             // 
-            this.btnDangelo.Location = new System.Drawing.Point(12, 271);
+            this.btnDangelo.Location = new System.Drawing.Point(11, 320);
             this.btnDangelo.Name = "btnDangelo";
             this.btnDangelo.Size = new System.Drawing.Size(118, 23);
             this.btnDangelo.TabIndex = 5;
