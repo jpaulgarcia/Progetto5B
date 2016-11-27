@@ -1,6 +1,6 @@
 ﻿namespace Progetto5B
 {
-    partial class formNurul
+    partial class FormNurul
     {
         /// <summary>
         /// Required designer variable.
@@ -136,7 +136,7 @@
             this.btnChiudi.UseVisualStyleBackColor = true;
             this.btnChiudi.Click += new System.EventHandler(this.btnChiudi_Click);
             // 
-            // formNurul
+            // FormNurul
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,7 +151,8 @@
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "formNurul";
+            this.Name = "FormNurul";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nurul";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

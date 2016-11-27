@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Progetto5B
 {
-    public partial class formNurul : Form
+    public partial class FormNurul : Form
     {
-        public formNurul()
+        public FormNurul()
         {
             InitializeComponent();
         }

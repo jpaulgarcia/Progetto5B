@@ -127,6 +127,7 @@
             this.btnNurul.TabIndex = 6;
             this.btnNurul.Text = "Visualizza Nurul";
             this.btnNurul.UseVisualStyleBackColor = true;
+            this.btnNurul.Click += new System.EventHandler(this.btnNurul_Click);
             // 
             // FormPrincip
             // 
