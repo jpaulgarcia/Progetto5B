@@ -102,6 +102,9 @@
     <EmbeddedResource Include="FormNerucci.resx">
       <DependentUpon>FormNerucci.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormRusso.resx">
+      <DependentUpon>FormRusso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSomigli.resx">
       <DependentUpon>FormSomigli.cs</DependentUpon>
     </EmbeddedResource>
