@@ -138,6 +138,7 @@
             this.btnDuta.TabIndex = 7;
             this.btnDuta.Text = "Visualizza Duta";
             this.btnDuta.UseVisualStyleBackColor = true;
+            this.btnDuta.Click += new System.EventHandler(this.btnDuta_Click);
             // 
             // FormPrincip
             // 

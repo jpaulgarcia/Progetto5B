@@ -64,5 +64,11 @@ namespace Progetto5B
             FormNurul formNurul = new FormNurul();
             formNurul.Show();
         }
+
+        private void btnDuta_Click(object sender, EventArgs e)
+        {
+            FormDuta formDuta = new FormDuta();
+            formDuta.Show();
+        }
     }
 }
