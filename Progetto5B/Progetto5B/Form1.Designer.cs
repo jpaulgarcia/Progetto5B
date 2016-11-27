@@ -37,6 +37,7 @@
             this.btnRusso = new System.Windows.Forms.Button();
             this.btnDangelo = new System.Windows.Forms.Button();
             this.btnNurul = new System.Windows.Forms.Button();
+            this.btnDuta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -129,11 +130,21 @@
             this.btnNurul.UseVisualStyleBackColor = true;
             this.btnNurul.Click += new System.EventHandler(this.btnNurul_Click);
             // 
+            // btnDuta
+            // 
+            this.btnDuta.Location = new System.Drawing.Point(149, 106);
+            this.btnDuta.Name = "btnDuta";
+            this.btnDuta.Size = new System.Drawing.Size(118, 23);
+            this.btnDuta.TabIndex = 7;
+            this.btnDuta.Text = "Visualizza Duta";
+            this.btnDuta.UseVisualStyleBackColor = true;
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnDuta);
             this.Controls.Add(this.btnNurul);
             this.Controls.Add(this.btnRusso);
             this.Controls.Add(this.btnDangelo);
@@ -163,6 +174,7 @@
         private System.Windows.Forms.Button btnRusso;
         private System.Windows.Forms.Button btnDangelo;
         private System.Windows.Forms.Button btnNurul;
+        private System.Windows.Forms.Button btnDuta;
     }
 }
 
