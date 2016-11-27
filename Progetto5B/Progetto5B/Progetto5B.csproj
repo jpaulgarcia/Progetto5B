@@ -76,6 +76,12 @@
     <Compile Include="FormNerucci.Designer.cs">
       <DependentUpon>FormNerucci.cs</DependentUpon>
     </Compile>
+    <Compile Include="formNurul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formNurul.Designer.cs">
+      <DependentUpon>formNurul.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRusso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNerucci.resx">
       <DependentUpon>FormNerucci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formNurul.resx">
+      <DependentUpon>formNurul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRusso.resx">
       <DependentUpon>FormRusso.cs</DependentUpon>
