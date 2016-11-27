@@ -46,5 +46,11 @@ namespace Progetto5B
             FormVannozzi frVannozzi = new FormVannozzi();
             frVannozzi.Show();
         }
+
+        private void btnDangelo_Click(object sender, EventArgs e)
+        {
+            FormDangelo frDangelo = new FormDangelo();
+            frDangelo.Show();
+        }
     }
 }
