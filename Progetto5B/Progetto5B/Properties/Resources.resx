@@ -121,13 +121,19 @@
   <data name="Nerucci" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nerucci.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb_person-anonimo.140x140_q95_box-174,0,451,277.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Somigli" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Somigli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jpaul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jpaul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="oDt4wXJq_400x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oDt4wXJq_400x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oDt4wXJq_400x4001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oDt4wXJq_400x4001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
