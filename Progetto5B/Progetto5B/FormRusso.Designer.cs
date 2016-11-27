@@ -1,6 +1,6 @@
 ﻿namespace Progetto5B
 {
-    partial class FormRusso
+    partial class MattiaRusso
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRusso));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MattiaRusso));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -134,7 +134,7 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "LUOGO NASCITA :";
             // 
-            // FormRusso
+            // MattiaRusso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -148,7 +148,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "FormRusso";
+            this.Name = "MattiaRusso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRusso";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
