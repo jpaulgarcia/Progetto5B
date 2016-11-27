@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Progetto5B
 {
-    public partial class Di_Vincenzo : Form
+    public partial class FormDiVincenzo : Form
     {
-        public Di_Vincenzo()
+        public FormDiVincenzo()
         {
             InitializeComponent();
         }
