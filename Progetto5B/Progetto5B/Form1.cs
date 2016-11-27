@@ -76,5 +76,11 @@ namespace Progetto5B
             FormLandi formLandi = new FormLandi();
             formLandi.Show();
         }
+
+        private void btnFlorindo_Click(object sender, EventArgs e)
+        {
+            FormFlorindo frFlo = new FormFlorindo();
+            frFlo.Show();
+        }
     }
 }

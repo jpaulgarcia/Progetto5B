@@ -71,6 +71,12 @@
     <Compile Include="FormDuta.Designer.cs">
       <DependentUpon>FormDuta.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFlorindo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFlorindo.Designer.cs">
+      <DependentUpon>FormFlorindo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormGarcia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDuta.resx">
       <DependentUpon>FormDuta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFlorindo.resx">
+      <DependentUpon>FormFlorindo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormGarcia.resx">
       <DependentUpon>FormGarcia.cs</DependentUpon>

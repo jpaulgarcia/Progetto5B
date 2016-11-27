@@ -39,6 +39,7 @@
             this.btnNurul = new System.Windows.Forms.Button();
             this.btnDuta = new System.Windows.Forms.Button();
             this.BTN_Landi = new System.Windows.Forms.Button();
+            this.btnFlorindo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -151,11 +152,22 @@
             this.BTN_Landi.UseVisualStyleBackColor = true;
             this.BTN_Landi.Click += new System.EventHandler(this.BTN_Landi_Click);
             // 
+            // btnFlorindo
+            // 
+            this.btnFlorindo.Location = new System.Drawing.Point(149, 188);
+            this.btnFlorindo.Name = "btnFlorindo";
+            this.btnFlorindo.Size = new System.Drawing.Size(118, 23);
+            this.btnFlorindo.TabIndex = 9;
+            this.btnFlorindo.Text = "Visualizza Florindo";
+            this.btnFlorindo.UseVisualStyleBackColor = true;
+            this.btnFlorindo.Click += new System.EventHandler(this.btnFlorindo_Click);
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnFlorindo);
             this.Controls.Add(this.BTN_Landi);
             this.Controls.Add(this.btnDuta);
             this.Controls.Add(this.btnNurul);
@@ -189,6 +201,7 @@
         private System.Windows.Forms.Button btnNurul;
         private System.Windows.Forms.Button btnDuta;
         private System.Windows.Forms.Button BTN_Landi;
+        private System.Windows.Forms.Button btnFlorindo;
     }
 }
 
