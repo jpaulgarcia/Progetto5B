@@ -31,6 +31,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblCognome = new System.Windows.Forms.Label();
+            this.txtCognome = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,18 +57,39 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(258, 26);
+            this.txtNome.Location = new System.Drawing.Point(295, 26);
             this.txtNome.Name = "txtNome";
             this.txtNome.ReadOnly = true;
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 6;
             this.txtNome.Text = "Najmul Islam";
             // 
+            // lblCognome
+            // 
+            this.lblCognome.AutoSize = true;
+            this.lblCognome.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCognome.Location = new System.Drawing.Point(186, 73);
+            this.lblCognome.Name = "lblCognome";
+            this.lblCognome.Size = new System.Drawing.Size(63, 15);
+            this.lblCognome.TabIndex = 7;
+            this.lblCognome.Text = "Cognome:";
+            // 
+            // txtCognome
+            // 
+            this.txtCognome.Location = new System.Drawing.Point(295, 68);
+            this.txtCognome.Name = "txtCognome";
+            this.txtCognome.ReadOnly = true;
+            this.txtCognome.Size = new System.Drawing.Size(100, 20);
+            this.txtCognome.TabIndex = 8;
+            this.txtCognome.Text = "Nurul";
+            // 
             // formNurul
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(424, 258);
+            this.Controls.Add(this.txtCognome);
+            this.Controls.Add(this.lblCognome);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.pictureBox1);
@@ -83,5 +106,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.Label lblCognome;
+        private System.Windows.Forms.TextBox txtCognome;
     }
 }
