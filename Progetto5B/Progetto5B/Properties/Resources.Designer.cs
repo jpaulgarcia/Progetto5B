@@ -63,6 +63,16 @@ namespace Progetto5B.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jpaul {
             get {
                 object obj = ResourceManager.GetObject("jpaul", resourceCulture);
@@ -76,6 +86,26 @@ namespace Progetto5B.Properties {
         internal static System.Drawing.Bitmap Nerucci {
             get {
                 object obj = ResourceManager.GetObject("Nerucci", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oDt4wXJq_400x400 {
+            get {
+                object obj = ResourceManager.GetObject("oDt4wXJq_400x400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oDt4wXJq_400x4001 {
+            get {
+                object obj = ResourceManager.GetObject("oDt4wXJq_400x4001", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

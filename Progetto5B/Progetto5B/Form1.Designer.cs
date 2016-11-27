@@ -35,6 +35,7 @@
             this.lblPresentazione = new System.Windows.Forms.Label();
             this.btnVannozzi = new System.Windows.Forms.Button();
             this.btnRusso = new System.Windows.Forms.Button();
+            this.btnDangelo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -89,9 +90,9 @@
             // 
             // btnVannozzi
             // 
-            this.btnVannozzi.Location = new System.Drawing.Point(13, 231);
+            this.btnVannozzi.Location = new System.Drawing.Point(12, 231);
             this.btnVannozzi.Name = "btnVannozzi";
-            this.btnVannozzi.Size = new System.Drawing.Size(117, 23);
+            this.btnVannozzi.Size = new System.Drawing.Size(118, 23);
             this.btnVannozzi.TabIndex = 4;
             this.btnVannozzi.Text = "Visualizza Vannozzi";
             this.btnVannozzi.UseVisualStyleBackColor = true;
@@ -106,6 +107,15 @@
             this.btnRusso.Text = "Visualizza Russo";
             this.btnRusso.UseVisualStyleBackColor = true;
             this.btnRusso.Click += new System.EventHandler(this.btnRusso_Click);
+            // btnDangelo
+            // 
+            this.btnDangelo.Location = new System.Drawing.Point(12, 271);
+            this.btnDangelo.Name = "btnDangelo";
+            this.btnDangelo.Size = new System.Drawing.Size(118, 23);
+            this.btnDangelo.TabIndex = 5;
+            this.btnDangelo.Text = "Visualizza D\'Angelo";
+            this.btnDangelo.UseVisualStyleBackColor = true;
+            this.btnDangelo.Click += new System.EventHandler(this.btnDangelo_Click);
             // 
             // FormPrincip
             // 
@@ -113,6 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
             this.Controls.Add(this.btnRusso);
+            this.Controls.Add(this.btnDangelo);
             this.Controls.Add(this.btnVannozzi);
             this.Controls.Add(this.btnCini);
             this.Controls.Add(this.lblPresentazione);
@@ -137,6 +148,7 @@
         private System.Windows.Forms.Label lblPresentazione;
         private System.Windows.Forms.Button btnVannozzi;
         private System.Windows.Forms.Button btnRusso;
+        private System.Windows.Forms.Button btnDangelo;
     }
 }
 

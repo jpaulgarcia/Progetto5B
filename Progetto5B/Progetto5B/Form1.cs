@@ -52,5 +52,11 @@ namespace Progetto5B
             FormRusso formRusso = new FormRusso();
             formRusso.Show();
         }
+
+        private void btnDangelo_Click(object sender, EventArgs e)
+        {
+            FormDangelo frDangelo = new FormDangelo();
+            frDangelo.Show();
+        }
     }
 }
