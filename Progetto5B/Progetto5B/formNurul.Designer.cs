@@ -33,6 +33,8 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblCognome = new System.Windows.Forms.Label();
             this.txtCognome = new System.Windows.Forms.TextBox();
+            this.lblData = new System.Windows.Forms.Label();
+            this.txtData = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,11 +85,32 @@
             this.txtCognome.TabIndex = 8;
             this.txtCognome.Text = "Nurul";
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblData.Location = new System.Drawing.Point(181, 122);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(89, 15);
+            this.lblData.TabIndex = 9;
+            this.lblData.Text = "Data di nascita:";
+            // 
+            // txtData
+            // 
+            this.txtData.Location = new System.Drawing.Point(295, 117);
+            this.txtData.Name = "txtData";
+            this.txtData.ReadOnly = true;
+            this.txtData.Size = new System.Drawing.Size(100, 20);
+            this.txtData.TabIndex = 10;
+            this.txtData.Text = "22/10/1996";
+            // 
             // formNurul
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(424, 258);
+            this.Controls.Add(this.txtData);
+            this.Controls.Add(this.lblData);
             this.Controls.Add(this.txtCognome);
             this.Controls.Add(this.lblCognome);
             this.Controls.Add(this.txtNome);
@@ -108,5 +131,7 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblCognome;
         private System.Windows.Forms.TextBox txtCognome;
+        private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.TextBox txtData;
     }
 }
