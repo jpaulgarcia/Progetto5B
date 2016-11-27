@@ -31,6 +31,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblDuta = new System.Windows.Forms.Label();
             this.txbNome = new System.Windows.Forms.TextBox();
+            this.lblCognome = new System.Windows.Forms.Label();
+            this.txbCognome = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +54,6 @@
             this.lblDuta.Size = new System.Drawing.Size(45, 15);
             this.lblDuta.TabIndex = 2;
             this.lblDuta.Text = "Nome:";
-            this.lblDuta.Click += new System.EventHandler(this.label1_Click);
             // 
             // txbNome
             // 
@@ -63,11 +64,32 @@
             this.txbNome.TabIndex = 6;
             this.txbNome.Text = "Adriano";
             // 
+            // lblCognome
+            // 
+            this.lblCognome.AutoSize = true;
+            this.lblCognome.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCognome.Location = new System.Drawing.Point(182, 89);
+            this.lblCognome.Name = "lblCognome";
+            this.lblCognome.Size = new System.Drawing.Size(63, 15);
+            this.lblCognome.TabIndex = 7;
+            this.lblCognome.Text = "Cognome:";
+            // 
+            // txbCognome
+            // 
+            this.txbCognome.Location = new System.Drawing.Point(271, 84);
+            this.txbCognome.Name = "txbCognome";
+            this.txbCognome.ReadOnly = true;
+            this.txbCognome.Size = new System.Drawing.Size(100, 20);
+            this.txbCognome.TabIndex = 8;
+            this.txbCognome.Text = "Duta";
+            // 
             // FormDuta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 310);
+            this.Controls.Add(this.txbCognome);
+            this.Controls.Add(this.lblCognome);
             this.Controls.Add(this.txbNome);
             this.Controls.Add(this.lblDuta);
             this.Controls.Add(this.pictureBox1);
@@ -84,5 +106,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblDuta;
         private System.Windows.Forms.TextBox txbNome;
+        private System.Windows.Forms.Label lblCognome;
+        private System.Windows.Forms.TextBox txbCognome;
     }
 }

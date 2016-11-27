@@ -65,6 +65,12 @@
     <Compile Include="FormDangelo.Designer.cs">
       <DependentUpon>FormDangelo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDuta.Designer.cs">
+      <DependentUpon>FormDuta.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormGarcia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDangelo.resx">
       <DependentUpon>FormDangelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDuta.resx">
+      <DependentUpon>FormDuta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormGarcia.resx">
       <DependentUpon>FormGarcia.cs</DependentUpon>
@@ -174,6 +183,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Nurul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duta.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
