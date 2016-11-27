@@ -38,6 +38,7 @@
             this.btnDangelo = new System.Windows.Forms.Button();
             this.btnNurul = new System.Windows.Forms.Button();
             this.btnDuta = new System.Windows.Forms.Button();
+            this.BTN_Landi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -140,11 +141,22 @@
             this.btnDuta.UseVisualStyleBackColor = true;
             this.btnDuta.Click += new System.EventHandler(this.btnDuta_Click);
             // 
+            // BTN_Landi
+            // 
+            this.BTN_Landi.Location = new System.Drawing.Point(149, 147);
+            this.BTN_Landi.Name = "BTN_Landi";
+            this.BTN_Landi.Size = new System.Drawing.Size(118, 23);
+            this.BTN_Landi.TabIndex = 8;
+            this.BTN_Landi.Text = "Visualizza Landi";
+            this.BTN_Landi.UseVisualStyleBackColor = true;
+            this.BTN_Landi.Click += new System.EventHandler(this.BTN_Landi_Click);
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.BTN_Landi);
             this.Controls.Add(this.btnDuta);
             this.Controls.Add(this.btnNurul);
             this.Controls.Add(this.btnRusso);
@@ -176,6 +188,7 @@
         private System.Windows.Forms.Button btnDangelo;
         private System.Windows.Forms.Button btnNurul;
         private System.Windows.Forms.Button btnDuta;
+        private System.Windows.Forms.Button BTN_Landi;
     }
 }
 

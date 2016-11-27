@@ -70,5 +70,11 @@ namespace Progetto5B
             FormDuta formDuta = new FormDuta();
             formDuta.Show();
         }
+
+        private void BTN_Landi_Click(object sender, EventArgs e)
+        {
+            FormLandi formLandi = new FormLandi();
+            formLandi.Show();
+        }
     }
 }
