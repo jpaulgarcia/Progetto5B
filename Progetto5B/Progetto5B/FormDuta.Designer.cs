@@ -33,6 +33,8 @@
             this.txbNome = new System.Windows.Forms.TextBox();
             this.lblCognome = new System.Windows.Forms.Label();
             this.txbCognome = new System.Windows.Forms.TextBox();
+            this.lblDataNascita = new System.Windows.Forms.Label();
+            this.txbDataNascita = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +59,7 @@
             // 
             // txbNome
             // 
-            this.txbNome.Location = new System.Drawing.Point(271, 40);
+            this.txbNome.Location = new System.Drawing.Point(300, 40);
             this.txbNome.Name = "txbNome";
             this.txbNome.ReadOnly = true;
             this.txbNome.Size = new System.Drawing.Size(100, 20);
@@ -76,18 +78,39 @@
             // 
             // txbCognome
             // 
-            this.txbCognome.Location = new System.Drawing.Point(271, 84);
+            this.txbCognome.Location = new System.Drawing.Point(300, 84);
             this.txbCognome.Name = "txbCognome";
             this.txbCognome.ReadOnly = true;
             this.txbCognome.Size = new System.Drawing.Size(100, 20);
             this.txbCognome.TabIndex = 8;
             this.txbCognome.Text = "Duta";
             // 
+            // lblDataNascita
+            // 
+            this.lblDataNascita.AutoSize = true;
+            this.lblDataNascita.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataNascita.Location = new System.Drawing.Point(182, 134);
+            this.lblDataNascita.Name = "lblDataNascita";
+            this.lblDataNascita.Size = new System.Drawing.Size(89, 15);
+            this.lblDataNascita.TabIndex = 9;
+            this.lblDataNascita.Text = "Data di nascita:";
+            // 
+            // txbDataNascita
+            // 
+            this.txbDataNascita.Location = new System.Drawing.Point(300, 129);
+            this.txbDataNascita.Name = "txbDataNascita";
+            this.txbDataNascita.ReadOnly = true;
+            this.txbDataNascita.Size = new System.Drawing.Size(100, 20);
+            this.txbDataNascita.TabIndex = 10;
+            this.txbDataNascita.Text = "07/06/1995";
+            // 
             // FormDuta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 310);
+            this.Controls.Add(this.txbDataNascita);
+            this.Controls.Add(this.lblDataNascita);
             this.Controls.Add(this.txbCognome);
             this.Controls.Add(this.lblCognome);
             this.Controls.Add(this.txbNome);
@@ -108,5 +131,7 @@
         private System.Windows.Forms.TextBox txbNome;
         private System.Windows.Forms.Label lblCognome;
         private System.Windows.Forms.TextBox txbCognome;
+        private System.Windows.Forms.Label lblDataNascita;
+        private System.Windows.Forms.TextBox txbDataNascita;
     }
 }
