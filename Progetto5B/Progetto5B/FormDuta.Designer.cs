@@ -35,6 +35,8 @@
             this.txbCognome = new System.Windows.Forms.TextBox();
             this.lblDataNascita = new System.Windows.Forms.Label();
             this.txbDataNascita = new System.Windows.Forms.TextBox();
+            this.lblLuogoNAscita = new System.Windows.Forms.Label();
+            this.txbLuogoNascita = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,11 +106,32 @@
             this.txbDataNascita.TabIndex = 10;
             this.txbDataNascita.Text = "07/06/1995";
             // 
+            // lblLuogoNAscita
+            // 
+            this.lblLuogoNAscita.AutoSize = true;
+            this.lblLuogoNAscita.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLuogoNAscita.Location = new System.Drawing.Point(182, 175);
+            this.lblLuogoNAscita.Name = "lblLuogoNAscita";
+            this.lblLuogoNAscita.Size = new System.Drawing.Size(97, 15);
+            this.lblLuogoNAscita.TabIndex = 11;
+            this.lblLuogoNAscita.Text = "Luogo di nascita:";
+            // 
+            // txbLuogoNascita
+            // 
+            this.txbLuogoNascita.Location = new System.Drawing.Point(300, 170);
+            this.txbLuogoNascita.Name = "txbLuogoNascita";
+            this.txbLuogoNascita.ReadOnly = true;
+            this.txbLuogoNascita.Size = new System.Drawing.Size(100, 20);
+            this.txbLuogoNascita.TabIndex = 12;
+            this.txbLuogoNascita.Text = "Romania";
+            // 
             // FormDuta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 310);
+            this.Controls.Add(this.txbLuogoNascita);
+            this.Controls.Add(this.lblLuogoNAscita);
             this.Controls.Add(this.txbDataNascita);
             this.Controls.Add(this.lblDataNascita);
             this.Controls.Add(this.txbCognome);
@@ -133,5 +156,7 @@
         private System.Windows.Forms.TextBox txbCognome;
         private System.Windows.Forms.Label lblDataNascita;
         private System.Windows.Forms.TextBox txbDataNascita;
+        private System.Windows.Forms.Label lblLuogoNAscita;
+        private System.Windows.Forms.TextBox txbLuogoNascita;
     }
 }
