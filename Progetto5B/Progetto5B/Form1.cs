@@ -46,5 +46,11 @@ namespace Progetto5B
             FormVannozzi frVannozzi = new FormVannozzi();
             frVannozzi.Show();
         }
+
+        private void btnRusso_Click(object sender, EventArgs e)
+        {
+            FormRusso formRusso = new FormRusso();
+            formRusso.Show();
+        }
     }
 }

@@ -70,6 +70,12 @@
     <Compile Include="FormNerucci.Designer.cs">
       <DependentUpon>FormNerucci.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRusso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRusso.Designer.cs">
+      <DependentUpon>FormRusso.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSomigli.cs">
       <SubType>Form</SubType>
     </Compile>

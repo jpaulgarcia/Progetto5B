@@ -34,6 +34,7 @@
             this.btnCini = new System.Windows.Forms.Button();
             this.lblPresentazione = new System.Windows.Forms.Label();
             this.btnVannozzi = new System.Windows.Forms.Button();
+            this.btnRusso = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -96,11 +97,22 @@
             this.btnVannozzi.UseVisualStyleBackColor = true;
             this.btnVannozzi.Click += new System.EventHandler(this.btnVannozzi_Click);
             // 
+            // btnRusso
+            // 
+            this.btnRusso.Location = new System.Drawing.Point(13, 274);
+            this.btnRusso.Name = "btnRusso";
+            this.btnRusso.Size = new System.Drawing.Size(117, 23);
+            this.btnRusso.TabIndex = 5;
+            this.btnRusso.Text = "Visualizza Russo";
+            this.btnRusso.UseVisualStyleBackColor = true;
+            this.btnRusso.Click += new System.EventHandler(this.btnRusso_Click);
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnRusso);
             this.Controls.Add(this.btnVannozzi);
             this.Controls.Add(this.btnCini);
             this.Controls.Add(this.lblPresentazione);
@@ -124,6 +136,7 @@
         private System.Windows.Forms.Button btnCini;
         private System.Windows.Forms.Label lblPresentazione;
         private System.Windows.Forms.Button btnVannozzi;
+        private System.Windows.Forms.Button btnRusso;
     }
 }
 
