@@ -89,5 +89,15 @@ namespace Progetto5B.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thumb_person_anonimo_140x140_q95_box_174_0_451_277 {
+            get {
+                object obj = ResourceManager.GetObject("thumb_person-anonimo.140x140_q95_box-174,0,451,277", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

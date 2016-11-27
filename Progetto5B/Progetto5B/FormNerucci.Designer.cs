@@ -123,7 +123,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::Progetto5B.Properties.Resources.Nerucci;
+            this.pictureBox1.Image = global::Progetto5B.Properties.Resources.thumb_person_anonimo_140x140_q95_box_174_0_451_277;
             this.pictureBox1.Location = new System.Drawing.Point(12, 37);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(160, 190);
