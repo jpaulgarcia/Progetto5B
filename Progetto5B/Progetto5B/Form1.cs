@@ -58,5 +58,11 @@ namespace Progetto5B
             FormDangelo frDangelo = new FormDangelo();
             frDangelo.Show();
         }
+
+        private void btnDiVincenzo_Click(object sender, EventArgs e)
+        {
+            FormDiVincenzo formMDV = new FormDiVincenzo();
+            formMDV.Show();
+        }
     }
 }

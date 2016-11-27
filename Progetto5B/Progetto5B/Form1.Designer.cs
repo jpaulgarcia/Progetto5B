@@ -36,6 +36,7 @@
             this.btnVannozzi = new System.Windows.Forms.Button();
             this.btnRusso = new System.Windows.Forms.Button();
             this.btnDangelo = new System.Windows.Forms.Button();
+            this.btnDiVincenzo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -118,11 +119,22 @@
             this.btnDangelo.UseVisualStyleBackColor = true;
             this.btnDangelo.Click += new System.EventHandler(this.btnDangelo_Click);
             // 
+            // btnDiVincenzo
+            // 
+            this.btnDiVincenzo.Location = new System.Drawing.Point(170, 63);
+            this.btnDiVincenzo.Name = "btnDiVincenzo";
+            this.btnDiVincenzo.Size = new System.Drawing.Size(125, 23);
+            this.btnDiVincenzo.TabIndex = 6;
+            this.btnDiVincenzo.Text = "Visualizza Di Vincenzo";
+            this.btnDiVincenzo.UseVisualStyleBackColor = true;
+            this.btnDiVincenzo.Click += new System.EventHandler(this.btnDiVincenzo_Click);
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnDiVincenzo);
             this.Controls.Add(this.btnRusso);
             this.Controls.Add(this.btnDangelo);
             this.Controls.Add(this.btnVannozzi);
@@ -150,6 +162,7 @@
         private System.Windows.Forms.Button btnVannozzi;
         private System.Windows.Forms.Button btnRusso;
         private System.Windows.Forms.Button btnDangelo;
+        private System.Windows.Forms.Button btnDiVincenzo;
     }
 }
 
