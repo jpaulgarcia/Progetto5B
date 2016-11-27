@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDiVincenzo));
             this.txtbNome = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -36,11 +37,13 @@
             this.lblCognome = new System.Windows.Forms.Label();
             this.lblData = new System.Windows.Forms.Label();
             this.lblLuogo = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtbNome
             // 
-            this.txtbNome.Location = new System.Drawing.Point(337, 12);
+            this.txtbNome.Location = new System.Drawing.Point(337, 100);
             this.txtbNome.Name = "txtbNome";
             this.txtbNome.Size = new System.Drawing.Size(100, 20);
             this.txtbNome.TabIndex = 0;
@@ -49,7 +52,7 @@
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(286, 15);
+            this.lblNome.Location = new System.Drawing.Point(286, 103);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(35, 13);
             this.lblNome.TabIndex = 2;
@@ -57,7 +60,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(337, 38);
+            this.textBox2.Location = new System.Drawing.Point(337, 126);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 3;
@@ -65,7 +68,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(337, 64);
+            this.textBox3.Location = new System.Drawing.Point(337, 152);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 4;
@@ -73,7 +76,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(337, 90);
+            this.textBox4.Location = new System.Drawing.Point(337, 178);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 5;
@@ -82,7 +85,7 @@
             // lblCognome
             // 
             this.lblCognome.AutoSize = true;
-            this.lblCognome.Location = new System.Drawing.Point(269, 41);
+            this.lblCognome.Location = new System.Drawing.Point(269, 129);
             this.lblCognome.Name = "lblCognome";
             this.lblCognome.Size = new System.Drawing.Size(52, 13);
             this.lblCognome.TabIndex = 6;
@@ -91,7 +94,7 @@
             // lblData
             // 
             this.lblData.AutoSize = true;
-            this.lblData.Location = new System.Drawing.Point(243, 67);
+            this.lblData.Location = new System.Drawing.Point(243, 155);
             this.lblData.Name = "lblData";
             this.lblData.Size = new System.Drawing.Size(78, 13);
             this.lblData.TabIndex = 7;
@@ -100,17 +103,28 @@
             // lblLuogo
             // 
             this.lblLuogo.AutoSize = true;
-            this.lblLuogo.Location = new System.Drawing.Point(236, 93);
+            this.lblLuogo.Location = new System.Drawing.Point(236, 181);
             this.lblLuogo.Name = "lblLuogo";
             this.lblLuogo.Size = new System.Drawing.Size(85, 13);
             this.lblLuogo.TabIndex = 8;
             this.lblLuogo.Text = "Luogo di nascita";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(218, 306);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // FormDiVincenzo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 330);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblLuogo);
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.lblCognome);
@@ -121,6 +135,7 @@
             this.Controls.Add(this.txtbNome);
             this.Name = "FormDiVincenzo";
             this.Text = "Di_Vincenzo";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,5 +151,6 @@
         private System.Windows.Forms.Label lblCognome;
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.Label lblLuogo;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
