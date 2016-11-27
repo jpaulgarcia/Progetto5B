@@ -37,6 +37,7 @@
             this.txbDataNascita = new System.Windows.Forms.TextBox();
             this.lblLuogoNAscita = new System.Windows.Forms.Label();
             this.txbLuogoNascita = new System.Windows.Forms.TextBox();
+            this.btnChiudi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,11 +126,22 @@
             this.txbLuogoNascita.TabIndex = 12;
             this.txbLuogoNascita.Text = "Romania";
             // 
+            // btnChiudi
+            // 
+            this.btnChiudi.Location = new System.Drawing.Point(248, 233);
+            this.btnChiudi.Name = "btnChiudi";
+            this.btnChiudi.Size = new System.Drawing.Size(75, 23);
+            this.btnChiudi.TabIndex = 13;
+            this.btnChiudi.Text = "Chiudi";
+            this.btnChiudi.UseVisualStyleBackColor = true;
+            this.btnChiudi.Click += new System.EventHandler(this.btnChiudi_Click);
+            // 
             // FormDuta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 310);
+            this.Controls.Add(this.btnChiudi);
             this.Controls.Add(this.txbLuogoNascita);
             this.Controls.Add(this.lblLuogoNAscita);
             this.Controls.Add(this.txbDataNascita);
@@ -158,5 +170,6 @@
         private System.Windows.Forms.TextBox txbDataNascita;
         private System.Windows.Forms.Label lblLuogoNAscita;
         private System.Windows.Forms.TextBox txbLuogoNascita;
+        private System.Windows.Forms.Button btnChiudi;
     }
 }

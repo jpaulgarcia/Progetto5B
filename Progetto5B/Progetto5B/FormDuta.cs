@@ -17,5 +17,10 @@ namespace Progetto5B
             InitializeComponent();
         }
 
+        private void btnChiudi_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
