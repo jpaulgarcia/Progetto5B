@@ -36,6 +36,7 @@
             this.btnVannozzi = new System.Windows.Forms.Button();
             this.btnRusso = new System.Windows.Forms.Button();
             this.btnDangelo = new System.Windows.Forms.Button();
+            this.btnNurul = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNerucci
@@ -118,11 +119,21 @@
             this.btnDangelo.UseVisualStyleBackColor = true;
             this.btnDangelo.Click += new System.EventHandler(this.btnDangelo_Click);
             // 
+            // btnNurul
+            // 
+            this.btnNurul.Location = new System.Drawing.Point(149, 63);
+            this.btnNurul.Name = "btnNurul";
+            this.btnNurul.Size = new System.Drawing.Size(118, 23);
+            this.btnNurul.TabIndex = 6;
+            this.btnNurul.Text = "Visualizza Nurul";
+            this.btnNurul.UseVisualStyleBackColor = true;
+            // 
             // FormPrincip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(465, 355);
+            this.Controls.Add(this.btnNurul);
             this.Controls.Add(this.btnRusso);
             this.Controls.Add(this.btnDangelo);
             this.Controls.Add(this.btnVannozzi);
@@ -150,6 +161,7 @@
         private System.Windows.Forms.Button btnVannozzi;
         private System.Windows.Forms.Button btnRusso;
         private System.Windows.Forms.Button btnDangelo;
+        private System.Windows.Forms.Button btnNurul;
     }
 }
 
